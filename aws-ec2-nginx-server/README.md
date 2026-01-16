@@ -15,7 +15,8 @@ This folder contains complete documentation for deploying an NGINX web server on
 Place your diagram at:
 assets/architecture.png
 
-![Architecture](assets/architecture.png)
+![Architecture](assets/archite<img width="1536" height="1024" alt="Nginx-Server" src="https://github.com/user-attachments/assets/e13143cb-f79d-45b4-859a-641e57f1bcca" />
+cture.png)
 
 ## Steps Overview
 1. Launch EC2 (Ubuntu, t2.micro)
