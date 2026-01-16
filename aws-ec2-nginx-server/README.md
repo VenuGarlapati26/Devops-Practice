@@ -31,3 +31,49 @@ This folder contains complete documentation for deploying an NGINX web server on
 
 ## Resume Summary
 Deployed NGINX on AWS EC2 with secure networking and public access verification.
+
+---
+
+## Log Verification (NGINX & System Logs)
+
+After deploying NGINX, I checked logs to confirm that HTTP requests are reaching the server and being handled correctly.
+
+### NGINX Access Logs (Requests)
+File:
+- `/var/log/nginx/access.log`
+
+What each line typically shows:
+- Client IP
+- Request method + path (e.g., `GET /`)
+- HTTP status code (`200`, `404`, etc.)
+- Response size
+- Client (browser/curl)
+
+This confirms that:
+- Requests reached the instance
+- NGINX responded successfully
+
+### NGINX Error Logs (Problems)
+File:
+- `/var/log/nginx/error.log`
+
+Used to detect:
+- Config issues
+- Permission problems
+- Runtime failures
+
+### System Logs (NGINX service via systemd)
+Command:
+- `journalctl -u nginx`
+
+Used to verify:
+- Service starts
+- Reloads completed without error
+
+### Screenshot Proof (Sanitized)
+Add a sanitized screenshot here:
+- `screenshots/08-nginx-access-logs-sanitized.png`
+
+![NGINX Access Logs](screenshots/08-nginx-access-logs-sanitized.png)
+
+> Note: Screenshots are sanitized to remove sensitive identifiers such as IP addresses.
