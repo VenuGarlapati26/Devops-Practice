@@ -12,10 +12,9 @@ This folder contains complete documentation for deploying an NGINX web server on
 - Verification steps
 
 ## Architecture Diagram
-Place your diagram at:
 
 
-![Architecture](assets/architecture.png)<img width="1536" height="1024" alt="Nginx-Server" src="https://github.com/user-attachments/assets/e13143cb-f79d-45b4-859a-641e57f1bcca" />
+<img width="1200" height="1024" alt="Nginx-Server" src="https://github.com/user-attachments/assets/e13143cb-f79d-45b4-859a-641e57f1bcca" />
 
 
 ## Steps Overview
